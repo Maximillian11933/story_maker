@@ -5,7 +5,6 @@ const List<List<Color>> gradientColors = [
   [Color.fromRGBO(31, 179, 237, 1), Color.fromRGBO(17, 106, 197, 1)],
   [Color.fromRGBO(240, 19, 77, 1), Color.fromRGBO(228, 0, 124, 1)],
   [Color.fromRGBO(255, 190, 32, 1), Color.fromRGBO(251, 112, 71, 1)],
-  [Color.fromRGBO(255, 255, 255, 1), Color.fromRGBO(234, 236, 255, 1)],
   [Color(0xFFee9ca7), Color(0xFFffdde1)],
   [Color(0xFF2193b0), Color(0xFF6dd5ed)],
   [Color(0xFFb92b27), Color(0xFF1565C0)],

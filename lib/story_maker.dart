@@ -51,7 +51,7 @@ class _StoryMakerState extends State<StoryMaker> {
   bool _isTextInput = false;
   String _currentText = '';
   Color _selectedTextColor = const Color(0xffffffff);
-  int _selectedTextBackgroundGradient = 0;
+  int _selectedTextBackgroundGradient = 33;
   int _selectedBackgroundGradient = 0;
   double _selectedFontSize = 26;
   int _selectedFontFamily = 0;
