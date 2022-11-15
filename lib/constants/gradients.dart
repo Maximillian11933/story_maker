@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const List<List<Color>> gradientColors = [
-  [Colors.transparent, Colors.transparent],
+  [Colors.black, Colors.black],
   [Color.fromRGBO(31, 179, 237, 1), Color.fromRGBO(17, 106, 197, 1)],
   [Color.fromRGBO(240, 19, 77, 1), Color.fromRGBO(228, 0, 124, 1)],
   [Color.fromRGBO(255, 190, 32, 1), Color.fromRGBO(251, 112, 71, 1)],
@@ -54,4 +54,9 @@ const List<List<Color>> gradientColors = [
   [Color(0xFFfdcbf1), Color(0xFFe6dee9)],
   [Color(0xFFa1c4fd), Color(0xFFc2e9fb)],
   [Color(0xFFd4fc79), Color(0xFF96e6a1)],
+];
+
+const List<List<Color>> textGradientColors = [
+  ...gradientColors,
+  [Colors.transparent, Colors.transparent],
 ];

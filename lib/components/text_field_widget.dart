@@ -45,7 +45,7 @@ class TextFieldWidget extends StatelessWidget {
                 blendMode: BlendMode.overlay,
                 shaderCallback: (bounds) {
                   return createShader(
-                    colors: gradientColors[backgroundColorIndex],
+                    colors: textGradientColors[backgroundColorIndex],
                     width: context.width,
                     height: context.height,
                   );

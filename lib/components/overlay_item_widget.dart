@@ -45,7 +45,7 @@ class OverlayItemWidget extends StatelessWidget {
                     background: Paint()
                       ..strokeWidth = 24
                       ..shader = createShader(
-                        colors: gradientColors[editableItem.textStyle],
+                        colors: textGradientColors[editableItem.textStyle],
                         width: context.width,
                         height: context.height,
                       )
@@ -67,7 +67,7 @@ class OverlayItemWidget extends StatelessWidget {
                       fontSize: editableItem.fontSize,
                       background: Paint()
                         ..shader = createShader(
-                          colors: gradientColors[editableItem.textStyle],
+                          colors: textGradientColors[editableItem.textStyle],
                           width: context.width,
                           height: context.height,
                         ),

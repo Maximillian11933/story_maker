@@ -303,7 +303,7 @@ class _StoryMakerState extends State<StoryMaker> {
   }
 
   void _onChangeTextBackground() {
-    if (_selectedTextBackgroundGradient < gradientColors.length - 1) {
+    if (_selectedTextBackgroundGradient < textGradientColors.length - 1) {
       setState(() {
         _selectedTextBackgroundGradient++;
       });
